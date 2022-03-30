@@ -1,0 +1,365 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>E-Commerce</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link href="css/chosen.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- js -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/chosen.jquery.min.js"></script>
+    <script src="js/custom.js"></script>
+</head>
+<body>
+
+    <!-- header start -->
+    <header>
+        <div class="container">
+            <div class="left-wrap">
+                <div class="logo-wrap">
+                    <a href="index.html">
+                        <img src="images/logo-header.jpg" alt="logo" />
+                    </a>
+                </div>
+                <div class="search-wrap">
+                    <input type="text" class="form-control" placeholder="Search for all product" />
+                    <a href="#" class="btn-search-icon">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="right-wrap">
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <div class="nav-collapse">
+                            <ul class="nav">
+                                <li class="dropdown">
+                                    <a data-toggle="dropdown" class="dropdown-toggle btn-header" href="#">
+                                        <span class="btn-header-text mr-10">My Account </span>
+                                        <i class="fa fa-angle-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                <i class="fa fa-user-circle"></i> My Profile
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                <i class="fa fa-star"></i> Super Coin Zone
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                <i class="fa fa-plus-circle"></i> Ezabali Plus Zone
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                <i class="fa fa-ad"></i> Orders
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                <i class="fa fa-heart"></i> Wishlist
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                <i class="fa fa-comment-alt"></i> My Chats
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                <i class="fa fa-money-check"></i> Coupons
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                <i class="fa fa-gift"></i> Gift Cards
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                <i class="fa fa-bell"></i> Notifications
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                <i class="fa fa-power-off"></i> Logout
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        
+        
+    </header>
+    <!-- header end -->
+    <!-- my cart start -->
+    <section class="mt-80">
+        <div class="container-fluid">
+            <div class="row" id="with_Cart">
+                <div class="col-md-8 form-group">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="float-left">
+                                <h1>My Cart (1)</h1>
+                            </div>
+                            <div class="float-right">
+                                <span class="location-label-wrap"><i class="fa fa-map-marker-alt"></i> Deliver to : </span>
+                                <div class="text-box-wrap">
+                                    <input type="text" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="card-body">
+                            <div class="item-info-wrap">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="item-wrap">
+                                            <img src="./images/category-1.jpeg" alt="item" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="detail-info">
+                                            <h1 class="item-name">Wrist Watch</h1>
+                                            <p class="item-type">Black</p>
+                                            <p class="item-seller">Seller : Cortesa</p>
+                                        </div>
+                                        <div class="price-info">
+                                            <div class="price-upper">
+                                                <h1 class="price-net">₹6,499</h1>
+                                                <p class="price-actual">₹7,990</p>
+                                                <span class="badge badge-success">18% Off 1 offer applied<i class="fa fa-info"></i></span>
+                                            </div>
+                                            <div class="price-lower">
+                                                <h1 class="price-net">Or Pay ₹6,499</h1>
+                                                <p class="price-deducted"> + <i class="fa fa-info"></i><span class="price-other">325</span></p>
+                                            </div>
+                                        </div>
+                                        <div class="btn-other">
+                                            <input type="button" class="btn btn-primary btn-sm" value="Save for later" />
+                                            <input type="button" class="btn btn-danger btn-sm" value="Remove" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="delivery-info">
+                                            <p class="delivery-by">Delivery by Mon Dec 6 | <span class="green">Free</span><span class="price-less">₹40</span></h1>
+                                            <p class="replacement-text">7 Days Replacement Policy</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="float-right">
+                                    <input type="button" class="btn btn-warning" value="Place Order" />
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 form-group">
+                    <div class="card">
+                        <div class="card-header">
+                            <h1>Price Details</h1>
+                        </div>
+                        <div class="card-body">
+                            <table class="price-details">
+                                <tbody>
+                                    <tr>
+                                        <td>Price (1 item)</td>
+                                        <td>₹7,990</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Discount</td>
+                                        <td><span class="badge badge-success">-₹1,491</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Delivery Charges</td>
+                                        <td><span class="badge badge-success">Free</span></td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td>Total Amount</td>
+                                        <td>₹6,499</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                            <p class="save-info">You will save ₹1,491 on this order</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="no_Cart" style="display: none;">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="no-cart-inner">
+                            <img src="./images/no-cart.png" alt="no-cart" />
+                            <h1>Your cart is empty!</h1>
+                            <p>Add item to it now.</p>
+                            <input type="button" class="btn btn-primary btn-sm" value="Shop Now" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- my cart end -->
+    <!-- footer start -->
+    <footer>
+
+        <!-- lower footer start -->
+        <div class="gray-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <ul class="linear-menu">
+                            <li class="mr-30">Policies: </li>
+                            <li class="saperator"><a href="#;">Return Policy</a></li>
+                            <li class="saperator"><a href="#;">Terms of Use</a></li>
+                            <li class="saperator"><a href="#;">Security</a></li>
+                            <li class="saperator"><a href="#;">Privacy</a></li>
+                            <li class="saperator"><a href="#;">Infringement</a></li>
+                            <li>© 2007-2021 Ezabali.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="help-menu">
+                            Need help? Visit the <a href="#;" class="btn-link">Help Center</a> or <a href="#;" class="btn-link">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <!-- lower footer end -->
+
+    </footer>
+    <!-- footer end -->
+    <!-- login modal start -->
+    <div class="modal fade" id="loginModal" aria-modal="true" role="dialog">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <!-- modal header -->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <!-- modal body -->
+                <div class="modal-body">
+                    <div class="logo-wrap center">
+                        <img src="images/logo-header.jpg" alt="logo" />
+                    </div>
+                    <h1 class="header-text">Sign in</h1>
+                    <div class="form-wrap">
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" placeholder="Email/Mobile" />
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="password" class="form-control" placeholder="Password" />
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <a href="#" class="btn-link right strong">Forgot Password?</a>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                By continuing, you agree to Ejabali <a href="#" class="btn-link light">Terms of Use</a> and <a href="#" class="btn-link light">Privacy Policy.</a>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="submit" class="btn btn-warning form-control" value="Login" />
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <span class="circle-text">OR</span>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="submit" class="btn btn-primary form-control" value="Request OTP" />
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <a href="#" class="btn-link strong text-center block" data-toggle="modal" data-target="#signupModal" data-dismiss="modal">New to Ejabali? Create an account</a>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- login modal end -->
+    <!-- sign up modal start -->
+    <div class="modal fade" id="signupModal" aria-modal="true" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <!-- modal header -->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <!-- modal body -->
+                <div class="modal-body">
+                    <h1 class="header-text mt-0">Create a new Account</h1>
+                    <div class="form-wrap">
+                        <div class="row">
+                            <div class="col-md-4 form-group">
+                                <input type="text" class="form-control" placeholder="Full Name" />
+                            </div>
+                            <div class="col-md-4 form-group">
+                                <input type="text" class="form-control" placeholder="Email Address" />
+                            </div>
+                            <div class="col-md-4 form-group">
+                                <input type="text" class="form-control" placeholder="Phone Number" />
+                            </div>
+                            <div class="col-md-4 form-group">
+                                <input type="text" class="form-control" placeholder="Password" />
+                            </div>
+                            <div class="col-md-4 form-group">
+                                <input type="text" class="form-control" placeholder="Confirm Password" />
+                            </div>
+                            <div class="col-md-4 form-group">
+                                <select class="form-control">
+                                    <option>--Select City--</option>
+                                </select>
+                            </div>
+                            <div class="col-md-8 form-group">
+                                <textarea class="form-control" placeholder="Address"></textarea>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                By continuing, you agree to Ejabali <a href="#" class="btn-link light">Terms of Use</a> and <a href="#" class="btn-link light">Privacy Policy.</a>
+                            </div>
+                            <div class="col-md-4 form-group">
+                                <input type="submit" class="btn btn-warning" value="Continue" />
+                            </div>
+                            <div class="col-md-4 form-group">
+                                <input type="submit" class="btn btn-primary" value="Existing User? Log in" data-toggle="modal" data-target="#loginModal" data-dismiss="modal" />
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sign up modal end -->
+
+</body>
+</html>

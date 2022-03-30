@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>E-Commerce</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link href="css/chosen.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- js -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/chosen.jquery.min.js"></script>
+    <script src="js/custom.js"></script>
+    <style>
+        body {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+        <div class="container">
+            <div class="login-box">
+                <div class="card">
+                    <div class="login-wrapper">
+                        <div class="logo-wrap center">
+                            <img src="images/logo-header.jpg" alt="logo" />
+                        </div>
+                        <div id="login_content" style="display: block;">
+                            <h1 class="header-text">Sign in</h1>
+                            <div class="form-wrap">
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                        <input type="text" class="form-control" placeholder="Email/Mobile" />
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <input type="password" class="form-control" placeholder="Password" />
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <a href="#" class="btn-link right strong">Forgot Password?</a>
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        By continuing, you agree to Ejabali <a href="#" class="btn-link light">Terms of Use</a> and <a href="#" class="btn-link light">Privacy Policy.</a>
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <input type="submit" class="btn btn-warning form-control" value="Login" id="btnLogin" />
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <span class="circle-text">OR</span>
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <input type="submit" class="btn btn-primary form-control" value="Request OTP" id="btnOtp" />
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <a href="#" class="btn-link strong text-center block" id="btnSignup">New to Ejabali? Create an account</a>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="forgot_password_content" style="display: none;">
+                            <h1 class="header-text mt-0">Forgot Password</h1>
+                            <div class="form-wrap">
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                        <input type="text" class="form-control" placeholder="Email Address/Phone Number" />
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <input type="text" class="form-control" placeholder="Password" />
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <input type="text" class="form-control" placeholder="Confirm Password" />
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        By continuing, you agree to Ejabali <a href="#" class="btn-link light">Terms of Use</a> and <a href="#" class="btn-link light">Privacy Policy.</a>
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <input type="submit" class="btn btn-warning form-control" value="Login" id="btnForgotLogin"/>
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <span class="circle-text">OR</span>
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <input type="submit" class="btn btn-primary form-control" value="Request OTP" id="btnForgotOtp" />
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="signup_content" style="display: none;">
+                            <h1 class="header-text mt-0">Create a new Account</h1>
+                            <div class="form-wrap">
+                                <div class="row">
+                                    <div class="col-md-6 form-group">
+                                        <input type="text" class="form-control" placeholder="Full Name" />
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input type="text" class="form-control" placeholder="Email Address" />
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input type="text" class="form-control" placeholder="Phone Number" />
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input type="text" class="form-control" placeholder="Password" />
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input type="text" class="form-control" placeholder="Confirm Password" />
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <select class="form-control">
+                                            <option>--Select City--</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <textarea class="form-control" placeholder="Address"></textarea>
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        By continuing, you agree to Ejabali <a href="#" class="btn-link light">Terms of Use</a> and <a href="#" class="btn-link light">Privacy Policy.</a>
+                                    </div>
+                                    <div class="col-md-6 form-group text-left">
+                                        <input type="submit" class="btn btn-warning" value="Continue"/>
+                                    </div>
+                                    <div class="col-md-6 form-group text-right">
+                                        <input type="submit" class="btn btn-primary" value="Existing User? Log in" id="btnSignupLogin" />
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
